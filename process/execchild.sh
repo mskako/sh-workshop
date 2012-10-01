@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "child is "$NAME
+echo "child is "$NAME     # same to parent process.
