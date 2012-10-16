@@ -1,6 +1,8 @@
 #!/bin/sh
 echo "Good morning, sir."
-exec > /dev/null 2>&1
+
+# stdout->/dev/null
+exec > /dev/null
 echo "Goddamn!"
 echo "Goddamn!"
 echo "Goddamn!"
